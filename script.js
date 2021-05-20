@@ -169,7 +169,7 @@ window.onload = async function queryFetch() {
   })
     .then((res) => res.json())
     .then((data) => {
-     console.log(data.data)
+    //  console.log(data.data)
      onLoad(data.data.user)
     })
     .catch((error) => console.log(error));
