@@ -432,6 +432,9 @@ top: -30px;
   padding: 8px 0;
 }
 
+.hamburger div {
+ display: none;
+}
 
 
 @media (max-width: 800px) {
@@ -452,7 +455,7 @@ top: -30px;
 
   .mobile-profile{
     width: 100%;
-    padding: 0 5px ;
+    padding: 7px 5px ;
     display: block;
   }
  
@@ -484,5 +487,18 @@ top: -30px;
 
   .secondary__nav {
     overflow-x: scroll;
+  }
+
+  .nav__primary {
+    padding: 16px 18px;
+  }
+
+  .hamburger div {
+    width: 23px;
+    height: 2px;
+    background-color: var(--color-white);
+    margin: 6px 0;
+    cursor: pointer;
+    display: block;
   }
 }
