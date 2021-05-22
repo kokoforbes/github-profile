@@ -118,7 +118,7 @@ const onLoad = (data) => {
   });
 };
 
-const oauth = { Authorization: "bearer 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" };
+const oauth = { Authorization: "bearer " };
 
 // GraphQL query
 const query = ` 
