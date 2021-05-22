@@ -118,10 +118,7 @@ const onLoad = (data) => {
   });
 };
 
-// Personal access token
-const token = "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";
-
-const oauth = { Authorization: "bearer " + token };
+const oauth = { Authorization: "bearer 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" };
 
 // GraphQL query
 const query = ` 
