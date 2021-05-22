@@ -118,7 +118,7 @@ const onLoad = (data) => {
   });
 };
 
-const oauth = { Authorization: "bearer " };
+const oauth = { Authorization: "bearer " + process.env.GITHUB_TOKEN};
 
 // GraphQL query
 const query = ` 
