@@ -1,6 +1,6 @@
 :root {
   --color-shark: #24292E;
-  --color-havelock: #5393d6;
+  --color-havelock: #0366D6;
   --color-silver: #bcbcbc;
   --color-white: #ffffff;
   --color-promegranate: #f24725;
@@ -436,6 +436,14 @@ top: -30px;
  display: none;
 }
 
+.active {
+  border-bottom: 2px solid var(--color-promegranate);
+}
+
+a{
+  color: var(--color-havelock);
+}
+
 
 @media (max-width: 800px) {
 
@@ -487,6 +495,7 @@ top: -30px;
 
   .secondary__nav {
     overflow-x: scroll;
+    background-color: var(--color-white);
   }
 
   .nav__primary {
