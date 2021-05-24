@@ -502,6 +502,10 @@ a{
     padding: 16px 18px;
   }
 
+  .hamburger{
+    display: block;
+  }
+
   .hamburger div {
     width: 23px;
     height: 2px;
